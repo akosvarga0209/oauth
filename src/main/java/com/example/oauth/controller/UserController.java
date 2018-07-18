@@ -30,9 +30,4 @@ public class UserController {
         return "success";
     }
 
-    @RequestMapping(value="/admin",method = RequestMethod.GET)
-    public String onlyAdmin(){
-        return "ONLY ADMIN PAGE";
-    }
-
 }
