@@ -14,7 +14,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 
     static final String CLIEN_ID = "devglan-client";
-    static final String CLIENT_SECRET = "$2a$04$AtImbGZAhxtj5Ohh/0jw/u7b0GBe7kSM74MybtN/YReK8qtQ1BL/2"; //kódolva kell 2.0-ba (password)
+    static final String CLIENT_SECRET = "$2a$04$AtImbGZAhxtj5Ohh/0jw/u7b0GBe7kSM74MybtN/YReK8qtQ1BL/2"; //Bcrypt encrypted (password)
     static final String GRANT_TYPE = "password";
     static final String GRANT_TYPE_PASSWORD = "password";
     static final String AUTHORIZATION_CODE = "authorization_code";
