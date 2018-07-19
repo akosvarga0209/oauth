@@ -13,4 +13,5 @@ public class AdminController {
     public String onlyAdmin(){
         return "ONLY ADMIN PAGE";
     }
+
 }
